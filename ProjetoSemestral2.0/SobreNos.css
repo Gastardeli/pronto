@@ -1,0 +1,437 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    z-index: -1;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+    background-color: #0D0D0F;
+
+
+}
+
+header .menu {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+header .menu a {
+    margin: 50px;
+    font-size: 17px;
+    color: white;
+}
+
+.menu a {
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.menu .botoes {
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu .botoes:hover::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #4747D9;
+    transition: width 0.3s ease;
+}
+
+.menu .botoes:hover {
+    color: #4747D9;
+}
+
+
+
+header .menu a button {
+    font-size: 17px;
+}
+
+header .logo img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+}
+
+.button {
+    height: 50px;
+    width: 200px;
+    position: relative;
+    background-color: #0D0D0F;
+    cursor: pointer;
+    border: 2px solid #6E6EFF;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-txt p{
+    z-index: 99;
+}
+
+.type1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #4747D9;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: 1;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 200px #4747D9;
+    color: #ffffff;
+    border: none;
+
+}
+
+.type1:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+    background-color: #6E6EFF;
+
+}
+
+
+
+main .sobrenos {
+    background-color: #6E6FFF;
+    display: flex;
+    justify-content: space-around;
+   
+    height: 550px;
+    color: #fff;
+
+
+
+}
+
+
+
+main .sobrenos .titulo p {
+    font-size: 40px;
+    
+    border-left: 2px solid white;
+    padding: 10px;
+}
+
+main .sobrenos .titulo,
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+main .sobrenos .texto p {
+    font-size: 15px;
+
+}
+
+
+main .fundador .cima {
+    display: flex;
+    justify-content: space-between;
+  
+   
+    
+    margin-top: 100px;
+
+
+
+}
+
+main .fundador .cima .foto img  {
+    
+    height: 300px;
+    
+    
+    margin-right: 210px;
+
+
+}
+
+
+
+
+
+
+main .porque .titulo {
+    margin-top: 100px;
+}
+
+main .porque .texto {
+    margin-top: 50px;
+}
+
+main .fundador .texto {
+    margin-top: 30px;
+}
+
+main .comoazul {
+    background-color: #6E6EFF;
+    height: 400px;
+    margin-top: 100px;
+    color: white;
+}
+
+main .comoazul .titulo1 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+main .comoazul .texto {
+    margin-top: 50px;
+    text-align: center;
+}
+
+main .texto p {
+    margin-left: 210px;
+    margin-right: 210px;
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+
+main .titulo p {
+    font-size: 40px;
+    border-left: 2px solid black;
+    padding-left: 10px;
+    margin-left: 210px;
+}
+
+main .como {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+main .como .texto {
+    margin-top: 50px;
+}
+
+
+.up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    margin-top: 7px;
+}
+
+.card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.instagram {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #cc39a4;
+}
+
+.card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.twitter {
+    margin-top: 1.5em;
+    margin-left: -.9em;
+    fill: #03A9F4;
+}
+
+.card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.youtube {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+    fill: #c4302b;
+}
+
+.card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.linkedin {
+    margin-top: -.9em;
+    margin-left: -1.2em;
+    fill: #0e76a8;
+}
+
+.card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+}
+
+.card1:hover .instagram {
+    fill: white;
+}
+
+.card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #03A9F4;
+}
+
+.card2:hover .twitter {
+    fill: white;
+}
+
+.card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #c4302b;
+}
+
+.card3:hover .youtube {
+    fill: white;
+}
+
+.card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #0e76a8;
+}
+
+.card4:hover .linkedin {
+    fill: white;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #BFBFBF;
+    padding-bottom: 15px;
+}
+
+footer .left .logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+footer .left .textoF {
+    font-size: 15px;
+
+}
+
+.footer .center a {
+    padding: 10px;
+}
+
+footer .main .tituloF {
+    font-size: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px){
+    body{
+       
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    header .menu{
+
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        margin-left:-150px ;
+        margin-right: -150px;
+    }
+    main .texto{
+        font-size: 10px;
+    }
+    main .titulo{
+        font-size: 15px;
+    }
+
+    main .sobrenos{
+        display: flex;
+        flex-direction: column;
+    }
+    main .sobrenos .titulo{
+        justify-content: left;
+    }
+    main .comoazul .titulo1{
+        margin-top: -60px;
+    }
+    main .comoazul{
+        height: 600px;
+    }
+    main .fundador .cima .foto img{
+        height: 150px;
+        width: auto;
+
+    }
+    
+
+
+    
+}
+
+
